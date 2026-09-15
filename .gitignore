@@ -1,0 +1,16 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+/app/build
+/app/release
+
+# Keep the wrapper properties/scripts tracked, but the CI-regenerated
+# jar and any local Gradle caches should not be committed.
+!gradle/wrapper/gradle-wrapper.properties
