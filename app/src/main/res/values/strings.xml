@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name / main screen title -->
+    <string name="app_name">Raktár Kereső</string>
+    <string name="app_title">Raktár Kereső</string>
+
+    <!-- Search screen -->
+    <string name="search_hint">Írd be a termék nevét vagy számát...</string>
+    <string name="no_results">Nincs találat</string>
+    <string name="filter_warehouse_label">Szűrés raktár szerint</string>
+    <string name="filter_storage_unit_label">Szűrés tároló egység szerint</string>
+    <string name="filter_all_warehouses">Összes raktár</string>
+    <string name="filter_all_storage_units">Összes tároló egység</string>
+    <string name="show_all_button">Összes megjelenítése</string>
+    <string name="settings_button">Beállítások</string>
+
+    <!-- Result row -->
+    <string name="result_code_prefix">Kód: %1$s</string>
+    <string name="result_quantity_prefix">Mennyiség: %1$s</string>
+    <string name="result_notes_prefix">Megjegyzés: %1$s</string>
+    <string name="edit_button">Szerkesztés</string>
+    <string name="delete_button">Törlés</string>
+
+    <!-- Add / edit item screen -->
+    <string name="add_item_button">Új termék hozzáadása</string>
+    <string name="add_item_title">Termék hozzáadása</string>
+    <string name="edit_item_title">Termék szerkesztése</string>
+    <string name="label_warehouse">Raktár</string>
+    <string name="label_storage_unit">Tároló egység</string>
+    <string name="label_product_name">Termék neve vagy azonosítója</string>
+    <string name="label_product_code">Termékkód (opcionális)</string>
+    <string name="label_quantity">Mennyiség (opcionális)</string>
+    <string name="label_unit">Mértékegység (pl. kg, liter, db)</string>
+    <string name="label_notes">Megjegyzés (opcionális)</string>
+    <string name="save_button">Mentés</string>
+    <string name="save_changes_button">Módosítások mentése</string>
+
+    <!-- Feedback messages: add / edit / delete -->
+    <string name="item_saved_success">Termék sikeresen mentve</string>
+    <string name="item_updated_success">Termék sikeresen módosítva</string>
+    <string name="item_deleted_success">Termék sikeresen törölve</string>
+    <string name="validation_error">Kérlek, töltsd ki az összes mezőt!</string>
+    <string name="invalid_quantity">Kérlek, adj meg érvényes mennyiséget!</string>
+
+    <!-- Delete confirmation -->
+    <string name="delete_confirm_message">Biztosan törölni szeretnéd ezt a terméket?</string>
+    <string name="delete_confirm_positive">Törlés</string>
+    <string name="delete_confirm_negative">Mégse</string>
+
+    <!-- Duplicate warning -->
+    <string name="duplicate_warning_title">Figyelem</string>
+    <string name="duplicate_warning_message">Ez a termék (%1$s) már szerepel a raktárban. Szeretnéd mégis menteni?</string>
+    <string name="duplicate_confirm_positive">Mentés mégis</string>
+    <string name="duplicate_confirm_negative">Mégse</string>
+
+    <!-- Settings / Adatkezelés screen -->
+    <string name="settings_title">Adatkezelés</string>
+    <string name="settings_show_all">Összes termék megjelenítése</string>
+    <string name="settings_export_csv">Adatok exportálása CSV-fájlba</string>
+    <string name="settings_import_csv">Adatok importálása CSV-fájlból</string>
+    <string name="settings_backup">Teljes biztonsági mentés</string>
+    <string name="settings_restore">Biztonsági mentés visszaállítása</string>
+    <string name="settings_delete_all">Összes adat törlése</string>
+
+    <!-- CSV export / import feedback -->
+    <string name="csv_export_success">Az adatok sikeresen exportálva.</string>
+    <string name="csv_export_error">Hiba történt az exportálás során: %1$s</string>
+    <string name="csv_import_success">Az adatok sikeresen importálva.</string>
+    <string name="csv_import_error">Hiba történt az importálás során: %1$s</string>
+    <string name="import_mode_title">Importálás módja</string>
+    <string name="import_mode_message">Hogyan szeretnéd importálni az adatokat?</string>
+    <string name="import_mode_append">Adatok hozzáadása</string>
+    <string name="import_mode_replace">Meglévő adatok cseréje</string>
+    <string name="import_error_title">Érvénytelen fájl</string>
+    <string name="import_invalid_rows">A fájl a következő hibás sorokat tartalmazza, ezért az importálás megszakadt:\n\n%1$s</string>
+
+    <!-- Backup / restore feedback -->
+    <string name="backup_success">A biztonsági mentés sikeresen elkészült.</string>
+    <string name="backup_error">Hiba történt a biztonsági mentés során: %1$s</string>
+    <string name="restore_error_title">Érvénytelen mentésfájl</string>
+    <string name="restore_error">Hiba történt a visszaállítás során: %1$s</string>
+    <string name="restore_confirm_title">Biztonsági mentés visszaállítása</string>
+    <string name="restore_confirm_message">Ez felülírja a jelenlegi adatokat a mentésben találhatókkal. Biztosan folytatod?</string>
+    <string name="restore_confirm_positive">Visszaállítás</string>
+    <string name="restore_success">Az adatok sikeresen visszaállítva.</string>
+
+    <!-- Delete all -->
+    <string name="delete_all_confirm_title">Összes adat törlése</string>
+    <string name="delete_all_confirm_message">Biztosan törölni szeretnéd az összes terméket? Ez a művelet nem vonható vissza.</string>
+    <string name="delete_all_confirm_positive">Összes törlése</string>
+    <string name="delete_all_success">Az összes termék törölve.</string>
+
+    <!-- Generic -->
+    <string name="cancel">Mégse</string>
+    <string name="ok">OK</string>
+</resources>
